@@ -22,7 +22,10 @@
         "github.copilot"
       ]
     }
-  }
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached,readonly=true"
+  ]
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [5432],
   // Use 'postCreateCommand' to run commands after the container is created.
