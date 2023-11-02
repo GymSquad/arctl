@@ -10,6 +10,16 @@
     "ghcr.io/dhoeric/features/act:1": {},
     "ghcr.io/guiyomh/features/golangci-lint:0": {
       "version": "1.55.1"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "installOhMyZshConfig": true,
+      "upgradePackages": true,
+      "username": "automatic",
+      "userUid": "automatic",
+      "userGid": "automatic"
     }
   },
   // Configure tool-specific properties.
